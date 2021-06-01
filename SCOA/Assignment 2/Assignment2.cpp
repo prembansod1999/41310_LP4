@@ -145,7 +145,6 @@ class GA
         int leastFittestIndex = population.getLeastFittestIndex();
         population.individuals[leastFittestIndex] = getFittestOffspring();
     }
-
 };
 int main()
 {
